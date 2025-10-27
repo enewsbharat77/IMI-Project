@@ -17,7 +17,7 @@ export default function Header() {
                         <Image
                             src="https://enewsbharat.com/wp-content/uploads/2025/08/imi.png"
                             alt="Left Logo"
-                            width={150}
+                            width={100}
                             height={80}
                             className="object-contain"
                         />
@@ -35,7 +35,7 @@ export default function Header() {
                         <Image
                             src="https://enewsbharat.com/wp-content/uploads/2025/08/logo-enews.png"
                             alt="Right Logo"
-                            width={150}
+                            width={100}
                             height={80}
                             className="object-contain"
                         />

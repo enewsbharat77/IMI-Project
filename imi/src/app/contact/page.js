@@ -22,10 +22,28 @@ export default function ContactPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("✅ Thank you! Your message has been received. We’ll contact you soon.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          formType: "Contact Form", // Helps you identify which form sent it
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        alert("✅ Thank you! Your message has been sent successfully.");
+        setFormData({ name: "", email: "", phone: "", message: "" });
+      } else {
+        alert("❌ Failed to send message: " + result.error);
+      }
+    } catch (error) {
+      alert("⚠️ Something went wrong. Please try again later.");
+    }
   };
 
   return (

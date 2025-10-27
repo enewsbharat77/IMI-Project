@@ -4,15 +4,42 @@ import { X } from "lucide-react";
 
 export default function ContactPopup() {
   const [show, setShow] = useState(false);
+  const [status, setStatus] = useState("");
 
   useEffect(() => {
-    // Always show popup after short delay (no localStorage)
-    const timer = setTimeout(() => setShow(true), 1000); // delay 1s
+    // Show popup 1 second after page load (every refresh)
+    const timer = setTimeout(() => setShow(true), 1000);
     return () => clearTimeout(timer);
   }, []);
 
-  const handleClose = () => {
-    setShow(false);
+  const handleClose = () => setShow(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    const formData = Object.fromEntries(new FormData(e.target));
+
+    try {
+      const res = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          formType: "Get in Touch Popup",
+        }),
+      });
+
+      const result = await res.json();
+      if (result.success) {
+        setStatus("✅ Message sent successfully!");
+        e.target.reset();
+      } else {
+        setStatus("❌ Failed to send. Please try again.");
+      }
+    } catch (err) {
+      setStatus("❌ Error sending message.");
+    }
   };
 
   if (!show) return null;
@@ -33,52 +60,56 @@ export default function ContactPopup() {
           Get in Touch with IMI
         </h2>
 
-        {/* Contact Section Content */}
-        <div className="space-y-3 text-gray-700 text-center">
-          <p>
-            Have questions or want to know more about our courses?
-            <br />
-            Fill the form or reach us directly!
-          </p>
+        {/* Form */}
+        <form onSubmit={handleSubmit} className="flex flex-col gap-3 mt-4">
+          <label className="text-left text-gray-700 font-medium">
+            Name <span className="text-red-500">*</span>
+          </label>
+          <input
+            type="text"
+            name="fullName"
+            placeholder="Your Name"
+            required
+            className="border p-2 rounded-lg w-full"
+          />
 
-          <form
-            action="https://formsubmit.co/your@email.com"
-            method="POST"
-            className="flex flex-col gap-3 mt-4"
+          <label className="text-left text-gray-700 font-medium">
+            Email <span className="text-red-500">*</span>
+          </label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            className="border p-2 rounded-lg w-full"
+          />
+
+          <label className="text-left text-gray-700 font-medium">
+            Message
+          </label>
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="3"
+            className="border p-2 rounded-lg w-full"
+          ></textarea>
+
+          <button
+            type="submit"
+            className="bg-[#ff3b1f] text-white font-semibold py-2 rounded-lg hover:bg-[#ff782f] transition"
           >
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              required
-              className="border p-2 rounded-lg w-full"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-              className="border p-2 rounded-lg w-full"
-            />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              rows="3"
-              className="border p-2 rounded-lg w-full"
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-[#ff3b1f] text-white font-semibold py-2 rounded-lg hover:bg-[#ff782f] transition"
-            >
-              Send Message
-            </button>
-          </form>
+            Send Message
+          </button>
+        </form>
 
-          <p className="text-sm text-gray-500 mt-2">
-            Or contact us directly:{" "}
-            <span className="font-semibold">+91-9024209393</span>
-          </p>
-        </div>
+        {status && (
+          <p className="text-center text-sm mt-3 text-gray-600">{status}</p>
+        )}
+
+        <p className="text-sm text-gray-500 mt-4 text-center">
+          Or contact us directly:{" "}
+          <span className="font-semibold">+91-9024209393</span>
+        </p>
       </div>
     </div>
   );

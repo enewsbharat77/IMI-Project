@@ -17,39 +17,66 @@ export default function ApplicationFormPage() {
     message: "",
   });
 
+  const [status, setStatus] = useState("");
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("✅ Application submitted successfully! We’ll contact you soon.");
-    setFormData({
-      fullName: "",
-      email: "",
-      phone: "",
-      dob: "",
-      gender: "",
-      address: "",
-      city: "",
-      state: "",
-      education: "",
-      course: "",
-      message: "",
-    });
+    setStatus("Sending...");
+
+    try {
+      const res = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          formType: "Application Form",
+        }),
+      });
+
+      const result = await res.json();
+
+      if (result.success) {
+        setStatus("✅ Application submitted successfully!");
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          dob: "",
+          gender: "",
+          address: "",
+          city: "",
+          state: "",
+          education: "",
+          course: "",
+          message: "",
+        });
+      } else {
+        setStatus("❌ Failed to send. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error sending form:", error);
+      setStatus("❌ Error sending form. Try again later.");
+    }
   };
 
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800">
-
       {/* ===== Hero Section ===== */}
       <section className="bg-[#fff1e7] py-16 px-6 md:px-20 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Admission Application Form
         </h1>
         <p className="text-gray-700 max-w-3xl mx-auto">
-          Start your journey with <span className="text-orange-500 font-semibold">Innovative Media Institute</span>.  
-          Fill out the application form below to apply for one of our media and journalism programs.
+          Start your journey with{" "}
+          <span className="text-orange-500 font-semibold">
+            Innovative Media Institute
+          </span>
+          . Fill out the application form below to apply for one of our media
+          and journalism programs.
         </p>
       </section>
 
@@ -88,11 +115,13 @@ export default function ApplicationFormPage() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
             Apply Now
           </h2>
-          <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
+          <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Full Name */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">Full Name <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                Full Name <span className="text-red-600">*</span>
+              </label>
               <input
                 type="text"
                 name="fullName"
@@ -105,8 +134,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* Email */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">Email <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                Email <span className="text-red-600">*</span>
+              </label>
               <input
                 type="email"
                 name="email"
@@ -119,8 +150,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* Phone */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">Phone Number <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                Phone Number <span className="text-red-600">*</span>
+              </label>
               <input
                 type="text"
                 name="phone"
@@ -133,8 +166,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* DOB */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">Date of Birth <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                Date of Birth <span className="text-red-600">*</span>
+              </label>
               <input
                 type="date"
                 name="dob"
@@ -146,8 +181,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* Gender */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">Gender <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                Gender <span className="text-red-600">*</span>
+              </label>
               <select
                 name="gender"
                 value={formData.gender}
@@ -163,8 +200,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* Education */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">Highest Education <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                Highest Education <span className="text-red-600">*</span>
+              </label>
               <input
                 type="text"
                 name="education"
@@ -177,8 +216,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* Course */}
-            <div className="col-span-1 md:col-span-2 w-full">
-              <label className="block mb-2 font-semibold text-sm">Select Course <span className="text-red-600">*</span></label>
+            <div className="col-span-1 md:col-span-2">
+              <label className="block mb-2 font-semibold text-sm">
+                Select Course <span className="text-red-600">*</span>
+              </label>
               <select
                 name="course"
                 value={formData.course}
@@ -197,8 +238,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* Address */}
-            <div className="col-span-1 md:col-span-2 w-full">
-              <label className="block mb-2 font-semibold text-sm">Address <span className="text-red-600">*</span></label>
+            <div className="col-span-1 md:col-span-2">
+              <label className="block mb-2 font-semibold text-sm">
+                Address <span className="text-red-600">*</span>
+              </label>
               <textarea
                 name="address"
                 value={formData.address}
@@ -211,8 +254,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* City */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">City <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                City <span className="text-red-600">*</span>
+              </label>
               <input
                 type="text"
                 name="city"
@@ -225,8 +270,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* State */}
-            <div className="col-span-1 w-full">
-              <label className="block mb-2 font-semibold text-sm">State <span className="text-red-600">*</span></label>
+            <div className="col-span-1">
+              <label className="block mb-2 font-semibold text-sm">
+                State <span className="text-red-600">*</span>
+              </label>
               <input
                 type="text"
                 name="state"
@@ -239,8 +286,10 @@ export default function ApplicationFormPage() {
             </div>
 
             {/* Message */}
-            <div className="col-span-1 md:col-span-2 w-full">
-              <label className="block mb-2 font-semibold text-sm">Message / Notes (optional)</label>
+            <div className="col-span-1 md:col-span-2">
+              <label className="block mb-2 font-semibold text-sm">
+                Message / Notes (optional)
+              </label>
               <textarea
                 name="message"
                 value={formData.message}
@@ -251,7 +300,7 @@ export default function ApplicationFormPage() {
               ></textarea>
             </div>
 
-            {/* Submit Button */}
+            {/* Submit */}
             <div className="col-span-1 md:col-span-2 text-center mt-6">
               <button
                 type="submit"
@@ -261,6 +310,10 @@ export default function ApplicationFormPage() {
               </button>
             </div>
           </form>
+
+          {status && (
+            <p className="text-center text-gray-700 mt-4 font-medium">{status}</p>
+          )}
         </div>
       </section>
     </div>
