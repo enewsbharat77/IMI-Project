@@ -92,7 +92,7 @@ export default function FacultySection() {
           className="mx-auto mb-4"
         />
         <h1 className="text-4xl font-bold text-gray-900 mb-3">
-          👥 Meet the Team – The Visionaries Behind IMI
+          Meet the Team – The Visionaries Behind IMI
         </h1>
         <p className="text-gray-600 leading-relaxed">
           At <span className="text-orange-500 font-semibold">Innovative Media Institute (IMI)</span>, our strength lies in the people who lead it.
@@ -102,7 +102,7 @@ export default function FacultySection() {
 
       {/* Core Leadership */}
       <h2 className="text-3xl font-semibold text-center text-orange-600 mb-8">
-        🌟 Core Leadership Team
+         Core Leadership Team
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -131,7 +131,7 @@ export default function FacultySection() {
       {/* Academic & Operations Table */}
       <div className="overflow-x-auto">
         <h2 className="text-3xl font-semibold text-center text-orange-600 mb-6">
-          💫 Academic & Operations Team
+           Academic & Operations Team
         </h2>
         <table className="w-full text-left border-collapse shadow-lg bg-white rounded-xl overflow-hidden">
           <thead className="bg-orange-500 text-white">
@@ -159,7 +159,7 @@ export default function FacultySection() {
       {/* Closing Note */}
       <div className="text-center mt-16 max-w-3xl mx-auto">
         <h3 className="text-2xl font-semibold text-orange-600 mb-3">
-          🏆 Team IMI – A Culture of Creativity and Collaboration
+           Team IMI – A Culture of Creativity and Collaboration
         </h3>
         <p className="text-gray-700 leading-relaxed">
           At IMI, every member contributes to a newsroom culture of learning, innovation, and storytelling.  

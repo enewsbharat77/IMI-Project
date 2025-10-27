@@ -7,7 +7,7 @@ export default function FeeStructure() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-red-600 mb-2">
-            💰 FEE STRUCTURE (Academic Year 2025–26)
+            FEE STRUCTURE (Academic Year 2025–26)
           </h1>
           <p className="text-lg font-semibold text-gray-700">
             Innovative Media Institute (IMI)
@@ -74,7 +74,7 @@ export default function FeeStructure() {
 
         {/* Fee Includes */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-red-600 mb-4">📌 Fee Includes:</h2>
+          <h2 className="text-2xl font-bold text-red-600 mb-4">Fee Includes:</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li>Academic Tuition Fee</li>
             <li>Studio & Production Access Charges</li>
@@ -90,7 +90,7 @@ export default function FeeStructure() {
         {/* Payment Section */}
         <div className="bg-white rounded-xl shadow-md p-6 mb-12">
           <h2 className="text-2xl font-bold text-red-600 mb-4">
-            🪙 Seat Booking & Payment Details
+            Seat Booking & Payment Details
           </h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li>
@@ -107,14 +107,14 @@ export default function FeeStructure() {
 
         {/* Refund Policy */}
         <div className="mb-10">
-          <h2 className="text-3xl font-bold text-red-600 mb-4">🔁 REFUND POLICY</h2>
+          <h2 className="text-3xl font-bold text-red-600 mb-4">REFUND POLICY</h2>
           <p className="text-gray-700 mb-4">
             At IMI, we maintain complete transparency in financial matters. However,
             due to limited seats and scheduled resources, our refund policy is as follows:
           </p>
 
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
-            💵 Refundable Security Deposit
+             Refundable Security Deposit
           </h3>
           <p className="text-gray-700 mb-3">
             A refundable deposit of ₹5,000 (Equipment & Library) will be returned
@@ -123,14 +123,14 @@ export default function FeeStructure() {
           </p>
 
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
-            🚫 Non-Refundable Deposits
+             Non-Refundable Deposits
           </h3>
           <p className="text-gray-700 mb-3">
             The seat booking amount of ₹40,000 is <strong>strictly non-refundable</strong>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-800 mb-3">
-            📅 Withdrawal & Refund Timelines
+             Withdrawal & Refund Timelines
           </h3>
           <table className="min-w-full border border-gray-300 bg-white rounded-lg overflow-hidden">
             <thead className="bg-gray-200 text-gray-800 text-left">
@@ -158,7 +158,7 @@ export default function FeeStructure() {
         {/* Notes Section */}
         <div className="bg-gray-100 rounded-xl p-6 mb-10">
           <h3 className="text-2xl font-semibold text-red-600 mb-3">
-            ⚠️ Additional Notes
+             Additional Notes
           </h3>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li>Classes may follow offline, online, or hybrid models.</li>
@@ -170,7 +170,7 @@ export default function FeeStructure() {
 
         {/* Financial Ethos */}
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-red-600 mb-2">🎯 Our Financial Ethos</h2>
+          <h2 className="text-2xl font-bold text-red-600 mb-2">Our Financial Ethos</h2>
           <p className="text-gray-700 italic max-w-3xl mx-auto">
             “At IMI, transparency, fairness, and student trust form the foundation of our
             financial policies. Every rupee invested is directed towards your learning,

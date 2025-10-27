@@ -22,11 +22,11 @@ export default function AdmissionPage() {
       {/* ===== Eligibility Section ===== */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold text-[#ea580c] mb-6 text-center">
-          🧾 Eligibility Criteria
+          Eligibility Criteria
         </h2>
 
         <div className="bg-white p-8 rounded-2xl shadow-md border-l-4 border-[#ea580c] space-y-6">
-          <h3 className="text-2xl font-semibold text-[#ea580c]">📌 Who Can Apply</h3>
+          <h3 className="text-2xl font-semibold text-[#ea580c]"> Who Can Apply</h3>
           <ul className="space-y-3 list-disc ml-6">
             <li>Candidates holding a <strong>Bachelor’s Degree (minimum 3 years)</strong> in any stream from a recognized university are eligible.</li>
             <li>Candidates appearing in their <strong>final year/semester</strong> can also apply (submit proof of graduation within 60 days).</li>
@@ -45,7 +45,7 @@ export default function AdmissionPage() {
       {/* ===== Courses Section ===== */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold text-[#ea580c] mb-6 text-center">
-          🧮 Courses Open for Admission (2025–26)
+          Courses Open for Admission (2025–26)
         </h2>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -68,7 +68,7 @@ export default function AdmissionPage() {
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-6 space-y-12">
           <h2 className="text-4xl font-bold text-center text-[#ea580c]">
-            📝 Step-by-Step Admission Process
+            Step-by-Step Admission Process
           </h2>
 
           {/* Step 1 */}
@@ -139,7 +139,7 @@ export default function AdmissionPage() {
       {/* ===== Entrance Test Highlights ===== */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold text-[#ea580c] mb-6 text-center">
-          🎓 Entrance Test Highlights (IMI-ET 2025)
+          Entrance Test Highlights (IMI-ET 2025)
         </h2>
         <div className="overflow-x-auto bg-white shadow-md rounded-2xl border border-gray-200">
           <table className="w-full border-collapse text-sm">
@@ -176,14 +176,14 @@ export default function AdmissionPage() {
           </table>
         </div>
         <p className="text-center mt-4 font-semibold text-[#ea580c]">
-          📢 Top scorers may be eligible for IMI Merit Scholarships.
+          Top scorers may be eligible for IMI Merit Scholarships.
         </p>
       </section>
 
       {/* ===== Key Dates ===== */}
       <section className="bg-orange-50 py-16">
         <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-3xl font-bold text-[#ea580c] mb-6">📅 Key Dates (2025–26 Session)</h2>
+          <h2 className="text-3xl font-bold text-[#ea580c] mb-6">Key Dates (2025–26 Session)</h2>
           <ul className="space-y-2">
             <li>Application Opens: <strong>1st February 2025</strong></li>
             <li>Last Date to Apply: <strong>30th April 2025</strong></li>
@@ -197,7 +197,7 @@ export default function AdmissionPage() {
 
       {/* ===== Why Choose Section ===== */}
       <section className="max-w-5xl mx-auto px-6 py-16 text-center">
-        <h2 className="text-3xl font-bold text-[#ea580c] mb-6">🎯 Why Choose IMI Admission System?</h2>
+        <h2 className="text-3xl font-bold text-[#ea580c] mb-6">Why Choose IMI Admission System?</h2>
         <div className="grid sm:grid-cols-2 gap-6 text-left">
           {[
             "Transparent, merit-based process",
@@ -216,7 +216,7 @@ export default function AdmissionPage() {
       {/* ===== Dean’s Note ===== */}
       <section className="bg-orange-50 py-12">
         <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-2xl font-bold text-[#ea580c] mb-4">💬 Dean’s Note</h2>
+          <h2 className="text-2xl font-bold text-[#ea580c] mb-4">Dean’s Note</h2>
           <blockquote className="italic text-gray-700">
             “At IMI, our admission process isn’t just about eligibility — it’s about readiness.
             We look for passion, potential, and purpose in every student who walks in.”
@@ -227,7 +227,7 @@ export default function AdmissionPage() {
 
       {/* ===== Contact Section ===== */}
       <section className="py-12 text-center bg-white">
-        <h2 className="text-2xl font-bold text-[#ea580c] mb-3">📍 For Admission Queries</h2>
+        <h2 className="text-2xl font-bold text-[#ea580c] mb-3">For Admission Queries</h2>
         <div className="space-y-2 text-lg">
           <p><FaPhoneAlt className="inline text-[#ea580c]" /> 0141-3510746 | 9024209393</p>
           <p><FaEnvelope className="inline text-[#ea580c]" /> admissions@imibharat.com</p>

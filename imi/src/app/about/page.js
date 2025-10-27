@@ -49,7 +49,7 @@ export default function AboutPage() {
       <section id="legacy" className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-            🌍 Our Legacy of Trust and Transformation
+            Our Legacy of Trust and Transformation
           </h2>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Over the past 13 years, <b>E-News Bharat</b> has grown from a
@@ -73,7 +73,7 @@ export default function AboutPage() {
       <section className="py-16 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
-            🎯 Our Philosophy: Innovation, Integrity, Impact
+            Our Philosophy: Innovation, Integrity, Impact
           </h2>
           <p className="text-lg text-gray-700 text-center mb-8 max-w-3xl mx-auto">
             At INN, we believe journalism must evolve — not just with
@@ -114,7 +114,7 @@ export default function AboutPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-            ⚙️ What Makes INN Different
+            What Makes INN Different
           </h2>
           <p className="text-gray-700 max-w-4xl mx-auto mb-8 leading-relaxed">
             Unlike traditional media that migrated from print and TV,{" "}
@@ -136,14 +136,14 @@ export default function AboutPage() {
       <section className="py-16 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-10 text-gray-800">
-            🎥 Digital Powerhouse for the New India
+            Digital Powerhouse for the New India
           </h2>
           <ul className="text-gray-700 text-lg space-y-3 max-w-3xl mx-auto text-left md:text-center">
-            <li>📱 <b>WhatsApp News Network</b> – 10.5M+ Subscribers</li>
-            <li>📺 <b>OTT Integration (Jio TV & E-Bharat TV)</b></li>
-            <li>🌐 <b>Social Media Ecosystem</b> – YouTube, Instagram, X</li>
-            <li>🎙️ <b>Podcasts & Shows</b> – Patlaiyan, Khare Fatafat, Sidhi Baat</li>
-            <li>📰 <b>Digital Campaigns</b> – Harit Rajasthan, Impact Awards</li>
+            <li><b>WhatsApp News Network</b> – 10.5M+ Subscribers</li>
+            <li><b>OTT Integration (Jio TV & E-Bharat TV)</b></li>
+            <li><b>Social Media Ecosystem</b> – YouTube, Instagram, X</li>
+            <li><b>Podcasts & Shows</b> – Patlaiyan, Khare Fatafat, Sidhi Baat</li>
+            <li><b>Digital Campaigns</b> – Harit Rajasthan, Impact Awards</li>
           </ul>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function AboutPage() {
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
-            🧠 The INN Advantage
+            The INN Advantage
           </h2>
           <div className="overflow-x-auto">
             <table className="w-full border border-gray-200 text-left text-gray-700">
@@ -187,7 +187,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
-            🔭 Our Vision: The Digital Future of Indian Journalism
+            Our Vision: The Digital Future of Indian Journalism
           </h2>
           <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed mb-6">
             INN envisions an India where every citizen has access to fast,
@@ -210,7 +210,7 @@ export default function AboutPage() {
       <section className="py-20 bg-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-            🕊️ Our Promise
+            Our Promise
           </h2>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
             At INN, we don’t just inform — we inspire.  

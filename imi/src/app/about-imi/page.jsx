@@ -95,7 +95,7 @@ export default function AboutIMI() {
       {/* Vision Section */}
       <section className="max-w-5xl mx-auto py-12 px-6 md:px-10">
         <h3 className="text-2xl font-semibold text-[#ff782f] mb-4">
-          🌍 The Vision Behind IMI
+          The Vision Behind IMI
         </h3>
         <p className="text-lg text-justify mb-4">
           When we founded <strong>E-News Bharat</strong> over a decade ago, our
@@ -116,7 +116,7 @@ export default function AboutIMI() {
       <section className="bg-gray-100 py-12 px-6 md:px-10">
         <div className="max-w-5xl mx-auto">
           <h3 className="text-2xl font-semibold text-[#ff782f] mb-4">
-            ⚙️ Learning from Real Newsrooms, Not Just Classrooms
+            Learning from Real Newsrooms, Not Just Classrooms
           </h3>
           <p className="text-lg text-justify mb-4">
             IMI is not just about lectures and theory. It’s a{" "}
@@ -135,7 +135,7 @@ export default function AboutIMI() {
       {/* Final Section */}
       <section className="max-w-5xl mx-auto py-12 px-6 md:px-10">
         <h3 className="text-2xl font-semibold text-[#ff782f] mb-4">
-          🌟 A Note from the Heart
+          A Note from the Heart
         </h3>
         <p className="text-lg text-justify mb-4">
           As someone who has lived every aspect of media — from field reporting

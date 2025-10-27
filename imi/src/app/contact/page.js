@@ -127,7 +127,7 @@ export default function ContactPage() {
               </p>
 
               <p>
-                👩‍💻 <strong>Admissions Support Team:</strong>
+                <strong>Admissions Support Team:</strong>
                 <ul className="list-disc ml-6 mt-2">
                   <li>Ms. Shruti Dadhich – Dean & Director</li>
                   <li>Mr. Mukesh S. Dadhich – Founder & Chairman</li>
