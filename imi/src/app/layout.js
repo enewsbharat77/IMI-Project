@@ -5,10 +5,10 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Social from "@/components/social";
 import ContactPopup from "@/components/contactpopup";
-import Analytics from "@/components/Analytics";
+import CustomAnalytics from "@/components/Analytics"; // ✅ renamed
 import SchemaData from "@/components/SchemaData";
-import { Analytics } from "@vercel/analytics/next"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next"; // ✅ renamed
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Innovative Media Institute ",
@@ -61,18 +61,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-      </head>
+      <head></head>
       <body>
-        <SpeedInsights/>
-        <Analytics/>
+        {/* ✅ Performance tools */}
+        <SpeedInsights />
+        <VercelAnalytics />
+
+        {/* ✅ Custom site components */}
         <ContactPopup />
         <Header />
         <Navbar />
         {children}
         <Footer />
         <Social />
-        <Analytics />
+
+        {/* ✅ Custom analytics + Schema */}
+        <CustomAnalytics />
         <SchemaData />
       </body>
     </html>
