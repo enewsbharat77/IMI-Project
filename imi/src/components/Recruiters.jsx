@@ -19,6 +19,22 @@ export default function TopRecruiters() {
       name: "Zee News",
       logo: "https://enewsbharat.com/wp-content/uploads/2025/08/logo4.jpg",
     },
+    {
+      name:"Aaj Tak",
+      logo:"/ajj tak.png"
+    },
+    {
+      name:"newsnation",
+      logo:"/News_nation_logo.webp"
+    },
+    {
+      name:"RepIndia",
+      logo:"/RepIndia.webp"
+    },
+    {
+      name:"zee news",
+      logo:"/zee-new.webp"
+    }
   ];
 
   return (

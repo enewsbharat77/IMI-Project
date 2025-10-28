@@ -9,9 +9,9 @@ import Analytics from "@/components/Analytics";
 import SchemaData from "@/components/SchemaData";
 
 export const metadata = {
-  title: "Innovative Media Institute | Journalism & Media Training in India",
+  title: "Innovative Media Institute ",
   description:
-    "Innovative Media Institute (IMI Bharat) is a premier journalism and media training institute in India offering diploma and certification courses in mass communication, journalism, and digital media.",
+    "Innovative Media Institute (IMI Bharat) is a premier journalism and media training institute in India offering diploma and certification courses.",
   keywords:
     "IMI Bharat, Innovative Media Institute, journalism institute, media training, mass communication courses, journalism college, digital media training, media institute in India",
   authors: [{ name: "Innovative Media Institute", url: "https://imibharat.com" }],
@@ -60,8 +60,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* ✅ This meta tag is automatically added via metadata.verification.google */}
-        {/* So you don’t need to manually paste it again */}
       </head>
       <body>
         <ContactPopup />

@@ -28,7 +28,7 @@ export default function ChairmanMessage() {
                     {/* Right Side – IMI Logo */}
                     <div className="mt-8 md:mt-0 md:w-1/3 flex justify-center md:justify-end">
                         <Image
-                            src="https://enewsbharat.com/wp-content/uploads/2025/09/j2-1.jpg"
+                            src="https://enewsbharat.com/wp-content/uploads/2025/09/j2-e1758363637826.jpg"
                             alt="IMI Logo"
                             width={200}
                             height={200}

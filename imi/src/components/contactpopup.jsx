@@ -7,9 +7,17 @@ export default function ContactPopup() {
   const [status, setStatus] = useState("");
 
   useEffect(() => {
-    // Show popup 1 second after page load (every refresh)
-    const timer = setTimeout(() => setShow(true), 1000);
-    return () => clearTimeout(timer);
+    // Check if popup already shown in this session
+    const alreadyShown = sessionStorage.getItem("imiPopupShown");
+
+    if (!alreadyShown) {
+      // Show popup after 1s only once per session
+      const timer = setTimeout(() => {
+        setShow(true);
+        sessionStorage.setItem("imiPopupShown", "true");
+      }, 1000);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   useEffect(() => {

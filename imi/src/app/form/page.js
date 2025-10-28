@@ -85,25 +85,25 @@ export default function ApplicationFormPage() {
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="bg-[#fff5ed] p-6 rounded-2xl shadow-sm hover:shadow-md transition">
             <FaCalendarAlt className="text-orange-500 text-4xl mx-auto mb-3" />
-            <h3 className="text-3xl font-bold text-gray-900">20+</h3>
+            <h3 className="text-3xl font-bold text-gray-900">10+</h3>
             <p className="text-gray-600">Years of Excellence</p>
           </div>
 
           <div className="bg-[#fff5ed] p-6 rounded-2xl shadow-sm hover:shadow-md transition">
             <FaUserGraduate className="text-orange-500 text-4xl mx-auto mb-3" />
-            <h3 className="text-3xl font-bold text-gray-900">10,000+</h3>
+            <h3 className="text-3xl font-bold text-gray-900">1000+</h3>
             <p className="text-gray-600">Successful Graduates</p>
           </div>
 
           <div className="bg-[#fff5ed] p-6 rounded-2xl shadow-sm hover:shadow-md transition">
             <FaBuilding className="text-orange-500 text-4xl mx-auto mb-3" />
-            <h3 className="text-3xl font-bold text-gray-900">500+</h3>
+            <h3 className="text-3xl font-bold text-gray-900">50+</h3>
             <p className="text-gray-600">Recruiting Partners</p>
           </div>
 
           <div className="bg-[#fff5ed] p-6 rounded-2xl shadow-sm hover:shadow-md transition">
             <FaAward className="text-orange-500 text-4xl mx-auto mb-3" />
-            <h3 className="text-3xl font-bold text-gray-900">15+</h3>
+            <h3 className="text-3xl font-bold text-gray-900">5+</h3>
             <p className="text-gray-600">National Awards</p>
           </div>
         </div>

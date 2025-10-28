@@ -146,13 +146,13 @@ export default function ContactPage() {
 
               <p>
                 <strong>Admissions Support Team:</strong>
-                <ul className="list-disc ml-6 mt-2">
-                  <li>Ms. Shruti Dadhich – Dean & Director</li>
-                  <li>Mr. Mukesh S. Dadhich – Founder & Chairman</li>
-                  <li>Mr. Arpit Dadhich – Digital & Admissions Support</li>
-                  <li>Ms. Nisha Sharma – Admissions Coordinator</li>
-                </ul>
               </p>
+              <ul className="list-disc ml-6 mt-2">
+                <li>Ms. Shruti Dadhich – Dean & Director</li>
+                <li>Mr. Mukesh S. Dadhich – Founder & Chairman</li>
+                <li>Mr. Arpit Dadhich – Digital & Admissions Support</li>
+                <li>Ms. Nisha Sharma – Admissions Coordinator</li>
+              </ul>
 
               <p>
                 🌐 <strong>Websites:</strong>

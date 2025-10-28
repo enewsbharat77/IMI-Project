@@ -39,7 +39,7 @@ export default function FacultySection() {
       image: "/dipanshu.jpg",
     },
     {
-      name: "Mr. Harshit Sharma",
+      name: "Mr. Arpit Dadhich",
       position: "Program Coordinator & Studio Manager",
       description:
         "Ensures students get real-time exposure to live production, studio setups, and media workflow.",
