@@ -9,7 +9,7 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === "production", // ✅ Removes console logs in build
   },
   experimental: {
-    optimizeCss: true, // ✅ Reduce CSS render-blocking
+    optimizeCss: false, // ✅ Reduce CSS render-blocking
     scrollRestoration: true, 
   },
 };
