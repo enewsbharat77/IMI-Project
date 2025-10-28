@@ -1,3 +1,4 @@
+// src/app/layout.js
 import "../app/globals.css";
 import Header from "@/components/header";
 import Navbar from "@/components/navbar";
@@ -19,9 +20,11 @@ export const metadata = {
     canonical: "https://imibharat.com",
   },
   robots: "index, follow",
+
   verification: {
-    google: "ADD_YOUR_GOOGLE_VERIFICATION_CODE_HERE",
+    google: "xdAs9I-zPKe3SZwzN2_9RFbTgQ3TVKmkSQLTtKOzaI8",
   },
+
   openGraph: {
     title: "Innovative Media Institute | Journalism & Media Training",
     description:
@@ -39,6 +42,7 @@ export const metadata = {
     locale: "en_IN",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Innovative Media Institute | Journalism & Media Training",
@@ -46,6 +50,7 @@ export const metadata = {
       "Learn journalism, mass communication, and digital media at Innovative Media Institute (IMI Bharat).",
     images: ["https://enewsbharat.com/wp-content/uploads/2025/08/imi.png"],
   },
+
   icons: {
     icon: "/favicon.ico.png",
   },
@@ -54,6 +59,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ This meta tag is automatically added via metadata.verification.google */}
+        {/* So you don’t need to manually paste it again */}
+      </head>
       <body>
         <ContactPopup />
         <Header />
