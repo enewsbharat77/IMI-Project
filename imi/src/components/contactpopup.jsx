@@ -12,6 +12,19 @@ export default function ContactPopup() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    // Disable scroll when popup is open
+    if (show) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto"; // reset on unmount
+    };
+  }, [show]);
+
   const handleClose = () => setShow(false);
 
   const handleSubmit = async (e) => {
@@ -21,7 +34,7 @@ export default function ContactPopup() {
     const formData = Object.fromEntries(new FormData(e.target));
 
     try {
-      const res = await fetch("/api/sendEmail", {
+      const res = await fetch("/api/send-mail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -45,7 +58,10 @@ export default function ContactPopup() {
   if (!show) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-[9999]">
+    <div
+      className="fixed inset-0 bg-black/60 flex justify-center items-center z-[999999]"
+      style={{ backdropFilter: "blur(4px)" }}
+    >
       <div className="relative bg-white rounded-2xl shadow-2xl w-[90%] max-w-xl p-6 md:p-8 animate-fadeIn">
         {/* Close Button */}
         <button
@@ -84,9 +100,7 @@ export default function ContactPopup() {
             className="border p-2 rounded-lg w-full"
           />
 
-          <label className="text-left text-gray-700 font-medium">
-            Message
-          </label>
+          <label className="text-left text-gray-700 font-medium">Message</label>
           <textarea
             name="message"
             placeholder="Your Message"

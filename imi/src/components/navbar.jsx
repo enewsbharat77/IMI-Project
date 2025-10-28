@@ -131,9 +131,7 @@ export default function Navbar() {
                 <a href="/about" className="block hover:text-yellow-200">About INN</a>
                 <a href="/about-imi" className="block hover:text-yellow-200">About IMI</a>
                 <a href="/dean-mess" className="block hover:text-yellow-200">Dean Message</a>
-                <a href="/chairman" className="block px-4 py-2 hover:bg-gray-100 rounded-b-lg">
-                Chairman Message 
-              </a>
+                <a href="/chairman" className="block  hover:text-yellow-200">Chairman Message </a>
               </div>
             )}
           </div>
