@@ -10,7 +10,7 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true, // ✅ Reduce CSS render-blocking
-    scrollRestoration: true, // ✅ Better UX on navigation
+    scrollRestoration: true, 
   },
 };
 
