@@ -7,6 +7,8 @@ import Social from "@/components/social";
 import ContactPopup from "@/components/contactpopup";
 import Analytics from "@/components/Analytics";
 import SchemaData from "@/components/SchemaData";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "Innovative Media Institute ",
@@ -62,6 +64,8 @@ export default function RootLayout({ children }) {
       <head>
       </head>
       <body>
+        <SpeedInsights/>
+        <Analytics/>
         <ContactPopup />
         <Header />
         <Navbar />
