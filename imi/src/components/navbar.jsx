@@ -6,6 +6,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
   const [placementOpen, setPlacementOpen] = useState(false);
+  const [connectopen,setconnectopen]= useState(false);
 
   return (
     <nav className="py-3 bg-[#ff782f] relative z-[9999] shadow-md">
@@ -38,7 +39,7 @@ export default function Navbar() {
                 Dean Message
               </a>
               <a href="/chairman" className="block px-4 py-2 hover:bg-gray-100 rounded-b-lg">
-                Chairman Message 
+                Chairman Message
               </a>
             </div>
           </div>
@@ -73,6 +74,27 @@ export default function Navbar() {
           <a href="/faqs" className="text-white font-medium hover:text-yellow-200">
             FAQ'S
           </a>
+
+          <div className="group relative">
+            <button className="flex items-center space-x-1 text-white font-medium hover:text-yellow-200">
+              <span>IMI Connect</span>
+              <ChevronDown size={18} className="mt-0.5" />
+            </button>
+
+            <div
+              className="absolute left-0 top-full bg-white shadow-xl rounded-lg mt-2 w-64 text-gray-800 
+              opacity-0 group-hover:opacity-100 group-hover:visible invisible 
+              transition-all duration-300 ease-in-out z-[99999]"
+            >
+              <a href="/alumni" className="block px-4 py-2 hover:bg-gray-100 rounded-t-lg">
+                IMI Alumni 
+              </a>
+              <a href="/corporate" className="block px-4 py-2 hover:bg-gray-100">
+                Corporate Connect
+              </a>
+            </div>
+          </div>
+
           <a href="/contact" className="text-white font-medium hover:text-yellow-200">
             Contact Us
           </a>
@@ -160,6 +182,27 @@ export default function Navbar() {
 
           <a href="/faculty" className="block hover:text-yellow-200">Faculty</a>
           <a href="/faqs" className="block hover:text-yellow-200">FAQ'S</a>
+
+          <div>
+            <button
+              onClick={() => setconnectopen(!connectopen)}
+              className="flex items-center justify-between w-full hover:text-yellow-200"
+            >
+              <span>IMI Connect</span>
+              <ChevronDown
+                size={18}
+                className={`transition-transform duration-300 ${connectopen ? "rotate-180" : ""}`}
+              />
+            </button>
+
+            {connectopen && (
+              <div className="mt-2 ml-4 space-y-1 text-sm">
+                <a href="/alumni" className="block hover:text-yellow-200">IMI Alumni </a>
+                <a href="/corporate" className="block hover:text-yellow-200">Corporate Connect</a>
+              </div>
+            )}
+          </div>
+
           <a href="/contact" className="block hover:text-yellow-200">Contact Us</a>
         </div>
       )}

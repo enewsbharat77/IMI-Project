@@ -69,10 +69,10 @@ export default function Footer() {
                         Innovative Media Institute, Jaipur, Rajasthan, India
                     </p>
                     <p className="text-sm text-black mb-1">
-                        📞 +91 98765 43210
+                        📞 +91 9024209393
                     </p>
                     <p className="text-sm text-black mb-4">
-                        📧 info@itmi.in
+                        📧 admissions@imibharat.com
                     </p>
 
                     {/* --- Social Icons --- */}
