@@ -33,27 +33,27 @@ export default function Footer() {
                     </h4>
                     <ul className="space-y-2 text-sm">
                         <li>
-                            <a href="#about" className="hover:text-[#ea580c] transition">
+                            <a href="about-imi" className="hover:text-[#ea580c] transition">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="#placement" className="hover:text-[#ea580c] transition">
+                            <a href="placement" className="hover:text-[#ea580c] transition">
                                 Placement
                             </a>
                         </li>
                         <li>
-                            <a href="#faculty" className="hover:text-[#ea580c] transition">
+                            <a href="faculty" className="hover:text-[#ea580c] transition">
                                 Faculty
                             </a>
                         </li>
                         <li>
-                            <a href="#testimonials" className="hover:text-[#ea580c] transition">
-                                Testimonials
+                            <a href="about" className="hover:text-[#ea580c] transition">
+                                About-INN
                             </a>
                         </li>
                         <li>
-                            <a href="#contact" className="hover:text-[#ea580c] transition">
+                            <a href="contact" className="hover:text-[#ea580c] transition">
                                 Contact Us
                             </a>
                         </li>
@@ -77,17 +77,14 @@ export default function Footer() {
 
                     {/* --- Social Icons --- */}
                     <div className="flex space-x-4 mt-3">
-                        <a href="#" className="hover:text-[#ea580c] text-xl">
+                        <a href="https://www.facebook.com/imibharat/" className="hover:text-[#ea580c] text-xl">
                             <FaFacebook />
                         </a>
-                        <a href="#" className="hover:text-[#ea580c] text-xl">
+                        <a href="https://www.instagram.com/imibharat/" className="hover:text-[#ea580c] text-xl">
                             <FaInstagram />
                         </a>
                         <a href="#" className="hover:text-[#ea580c] text-xl">
                             <FaLinkedin />
-                        </a>
-                        <a href="#" className="hover:text-[#ea580c] text-xl">
-                            <FaYoutube />
                         </a>
                     </div>
                 </div>

@@ -24,7 +24,7 @@ export default function Header() {
 
           {/* Center Text */}
           <div className="flex-1 text-center px-2">
-            <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
+            <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-6xl font-bold text-orange-600">
               <i>Innovative Media Institute</i>
             </h1>
           </div>

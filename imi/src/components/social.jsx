@@ -16,15 +16,6 @@ export default function Social() {
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#0077B5] hover:scale-110 transition-transform">
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#1DA1F2] hover:scale-110 transition-transform">
-            <FaTwitter />
-          </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-[#FF0000] hover:scale-110 transition-transform">
-            <FaYoutube />
-          </a>
-          <a href="https://wa.me/919828209393" target="_blank" rel="noopener noreferrer" className="text-[#25D366] hover:scale-110 transition-transform">
-            <FaWhatsapp />
-          </a>
         </div>
       </div>
 
@@ -38,15 +29,6 @@ export default function Social() {
         </a>
         <a href="https://linkedin.com" className="text-[#0077B5]">
           <FaLinkedin />
-        </a>
-        <a href="https://twitter.com" className="text-[#1DA1F2]">
-          <FaTwitter />
-        </a>
-        <a href="https://youtube.com" className="text-[#FF0000]">
-          <FaYoutube />
-        </a>
-        <a href="https://wa.me/919828209393" className="text-[#25D366]">
-          <FaWhatsapp />
         </a>
       </div>
     </>
