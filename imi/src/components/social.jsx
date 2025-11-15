@@ -5,7 +5,7 @@ export default function Social() {
   return (
     <>
       {/* ✅ Desktop View (Right Side Vertical Bar) */}
-      <div className="hidden md:fixed md:flex md:flex-col md:right-0 md:top-1/3 bg-white shadow-lg rounded-l-2xl z-50">
+      <div className="hidden md:fixed md:flex md:flex-col md:right-0 md:top-1/3 bg-white shadow-lg rounded-l-2xl z-[9999999999]">
         <div className="flex flex-col text-3xl space-y-4 p-3">
           <a href="https://www.facebook.com/imibharat/" target="_blank" rel="noopener noreferrer" className="text-[#1877F2] hover:scale-110 transition-transform">
             <FaFacebook />

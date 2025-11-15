@@ -67,7 +67,7 @@ export default function Navbar() {
               </a>
             </div>
           </div>
-
+          <a href="/courses" className="text-white font-medium hover:text-yellow-200" >Courses</a>
           <a href="/faculty" className="text-white font-medium hover:text-yellow-200">
             Faculty
           </a>
