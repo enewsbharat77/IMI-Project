@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
@@ -15,13 +16,16 @@ export default function Header() {
           {/* LEFT SIDE — LOGOS */}
           <div className="flex items-center space-x-4 w-full md:w-auto justify-center md:justify-start">
             {/* Logo 1 */}
-            <Image
-              src="https://enewsbharat.com/wp-content/uploads/2025/08/imi.png"
-              alt="IMI Left Logo"
-              width={150}
-              height={120}
-              className="object-contain w-24 sm:w-28 md:w-36"
-            />
+            <Link href="/">
+              <Image
+                src="https://enewsbharat.com/wp-content/uploads/2025/08/imi.png"
+                alt="IMI Left Logo"
+                width={150}
+                height={120}
+                className="object-contain w-24 sm:w-28 md:w-40"
+              />
+            </Link>
+
 
             {/* Divider */}
             <div className="hidden md:flex flex-col items-center">
@@ -30,13 +34,16 @@ export default function Header() {
             </div>
 
             {/* Logo 2 */}
-            <Image
-              src="/inn.png"
-              alt="Logo 2"
-              width={150}
-              height={80}
-              className="object-contain w-20 sm:w-28 md:w-30"
-            />
+            <Link href='https://innmedia.in/'>
+              <Image
+                src="/inn.png"
+                alt="Logo 2"
+                width={140}
+                height={80}
+                className="object-contain w-20 sm:w-28 md:w-28"
+              />
+            </Link>
+
           </div>
 
           {/* RIGHT SIDE — ISO ABOVE TITLE + PARTNER LOGO */}

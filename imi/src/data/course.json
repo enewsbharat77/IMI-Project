@@ -1,0 +1,900 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Diploma in News Anchoring & Reporting",
+            "image": "/c1.png",
+            "certification": [
+                "ISO Certified",
+                "MESC Skill India Recognised"
+            ],
+            "overview": "One of India's most advanced, fully practical, studio-oriented training program for aspiring prime-time anchors, field reporters, newsroom presenters, talk-show hosts and digital news creators.",
+            "duration_options": [
+                {
+                    "program": "Certificate",
+                    "duration": "3 Months"
+                },
+                {
+                    "program": "Advanced Diploma",
+                    "duration": "6 Months"
+                },
+                {
+                    "program": "Professional Diploma",
+                    "duration": "12 Months"
+                }
+            ],
+            "fees": {
+                "3_months": 18000,
+                "6_months": 35000,
+                "12_months": 65000,
+                "emi": true
+            },
+            "certificates": [
+                "Skill India – MESC Certificate",
+                "ISO Certified IMI Diploma",
+                "Digital Portfolio + Showreel"
+            ],
+            "eligibility": [
+                "10+2 Pass",
+                "No prior experience required",
+                "Good communication & basic general awareness preferred"
+            ],
+            "facilities": [
+                "Fully equipped News Studio Set",
+                "Teleprompter",
+                "Broadcast cameras",
+                "Anchoring desk",
+                "Lighting setups",
+                "Audio console",
+                "Touchscreen Smart Board",
+                "Digital editing systems",
+                "Newsroom simulation environment",
+                "On-field reporting equipment"
+            ],
+            "syllabus": {
+                "semester_1": {
+                    "title": "Foundation Level (0-3 Months)",
+                    "modules": [
+                        "Introduction to Journalism",
+                        "Teleprompter Mastery",
+                        "Voice Training & Speech Improvement",
+                        "Body Language Training",
+                        "Writing Basics for News",
+                        "Mobile Journalism"
+                    ]
+                },
+                "semester_2": {
+                    "title": "Advanced Level (3-6 Months)",
+                    "modules": [
+                        "Advanced Script Writing",
+                        "Live Reporting",
+                        "Studio Anchoring",
+                        "Debate Anchoring",
+                        "Interview Mastery"
+                    ]
+                },
+                "semester_3": {
+                    "title": "Professional Level (6-12 Months)",
+                    "modules": [
+                        "Prime Time Anchoring",
+                        "Digital Anchoring",
+                        "Studio Production Workflow",
+                        "Professional Grooming",
+                        "Showreel & Portfolio",
+                        "Internship with eNews Bharat"
+                    ]
+                }
+            },
+            "careers": [
+                "News Anchor",
+                "TV Reporter",
+                "Digital Anchor",
+                "Political Reporter",
+                "Crime Reporter",
+                "Field Correspondent",
+                "Studio Host",
+                "Talk Show Presenter",
+                "YouTube News Creator",
+                "Voiceover Artist"
+            ],
+            "work_places": [
+                "News Channels",
+                "Digital Media Platforms",
+                "OTT Organizations",
+                "Media Companies",
+                "YouTube Studios"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Diploma in Video Editing & Post Production",
+            "image": "/c12.png",
+            "certification": [
+                "ISO Certified",
+                "MESC Skill India Recognised"
+            ],
+            "overview": "India's most industry-aligned and skill-intensive program for aspiring video editors, broadcast editors, motion graphic artists, promo designers, OTT content editors, and digital creators.",
+            "tools": [
+                "Adobe Premiere Pro",
+                "Adobe After Effects",
+                "Adobe Audition",
+                "DaVinci Resolve",
+                "Photoshop"
+            ],
+            "duration_options": [
+                {
+                    "program": "Certificate",
+                    "duration": "3 Months"
+                },
+                {
+                    "program": "Advanced Diploma",
+                    "duration": "6 Months"
+                },
+                {
+                    "program": "Professional Diploma",
+                    "duration": "12 Months"
+                }
+            ],
+            "fees": {
+                "3_months": 20000,
+                "6_months": 38000,
+                "12_months": 70000,
+                "emi": true
+            },
+            "certificates": [
+                "Skill India – MESC Certificate",
+                "ISO Certified IMI Diploma",
+                "Professional Editing Portfolio + Showreel"
+            ],
+            "eligibility": [
+                "10+2 (Any Stream)",
+                "Basic computer knowledge helpful",
+                "No prior editing experience required"
+            ],
+            "facilities": [
+                "High-performance editing systems",
+                "Premiere Pro & After Effects Suite",
+                "DaVinci Resolve colour panel",
+                "Audio recording booth",
+                "Green screen setup",
+                "Newsroom raw footage library",
+                "4K video files for practice",
+                "Multi-cam edit modules"
+            ],
+            "syllabus": {
+                "semester_1": {
+                    "title": "Foundation Level (0-3 Months)",
+                    "modules": [
+                        "Introduction to Video Editing",
+                        "Adobe Premiere Pro Basics",
+                        "Audio Editing",
+                        "Colour Correction (Basic)",
+                        "News Package Editing",
+                        "Editing for Social Media"
+                    ]
+                },
+                "semester_2": {
+                    "title": "Advanced Level (3-6 Months)",
+                    "modules": [
+                        "Advanced Premiere Pro",
+                        "Adobe After Effects",
+                        "Green Screen Editing",
+                        "Promo Editing",
+                        "Audio Mastering",
+                        "News Broadcast Editing"
+                    ]
+                },
+                "semester_3": {
+                    "title": "Professional Level (6-12 Months)",
+                    "modules": [
+                        "DaVinci Resolve – Colour Grading",
+                        "Documentary Editing",
+                        "OTT Format Editing",
+                        "Show Packaging",
+                        "Professional Portfolio",
+                        "Internship with eNews Bharat"
+                    ]
+                }
+            },
+            "careers": [
+                "Video Editor",
+                "News Editor",
+                "Promo Editor",
+                "Motion Graphic Artist",
+                "Social Media Content Editor",
+                "YouTube Editor",
+                "Documentary Editor",
+                "OTT Assistant Editor",
+                "Graphics Animator",
+                "Post Production Artist"
+            ],
+            "work_places": [
+                "News Channels",
+                "Digital Media Platforms",
+                "Production Houses",
+                "YouTube Studios",
+                "Corporate Media Teams",
+                "Advertising Agencies",
+                "OTT Platforms",
+                "Social Media Agencies"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Diploma in Graphic Designing & Motion Graphics",
+            "image": "/c3.png",
+            "certification": [
+                "ISO Certified",
+                "MESC Skill India Recognised"
+            ],
+            "overview": "A professional program that trains students in digital graphics, branding, motion animation, and broadcast visual communication using tools like Photoshop, Illustrator, After Effects, Canva, and Media Encoder.",
+            "tools": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe After Effects",
+                "Adobe Media Encoder",
+                "Canva",
+                "Basic Premiere Pro"
+            ],
+            "unique_points": {
+                "you_will_design": [
+                    "News bulletin graphics",
+                    "Posters, banners, ads",
+                    "Social media creatives",
+                    "Animated lower thirds",
+                    "Logo & brand identity",
+                    "Motion graphic explainers"
+                ],
+                "you_will_learn": [
+                    "Colour theory",
+                    "Typography",
+                    "Branding psychology",
+                    "Animation fundamentals",
+                    "Visual compositing",
+                    "News GFX design"
+                ],
+                "you_will_get": [
+                    "Portfolio",
+                    "Internship",
+                    "Industry expert guidance"
+                ]
+            },
+            "duration_options": [
+                {
+                    "program": "Certificate",
+                    "duration": "3 Months"
+                },
+                {
+                    "program": "Advanced Diploma",
+                    "duration": "6 Months"
+                },
+                {
+                    "program": "Professional Diploma",
+                    "duration": "12 Months"
+                }
+            ],
+            "fees": {
+                "3_months": 16000,
+                "6_months": 32000,
+                "12_months": 60000,
+                "emi": true
+            },
+            "certificates": [
+                "Skill India – MESC Certificate",
+                "ISO Certified IMI Diploma",
+                "Professional Design Portfolio"
+            ],
+            "eligibility": [
+                "10+2 pass",
+                "Basic computer knowledge",
+                "No prior design experience"
+            ],
+            "facilities": [
+                "High-performance design systems",
+                "Adobe Creative Suite",
+                "Digital drawing pad",
+                "Green screen studio",
+                "News graphic templates"
+            ],
+            "syllabus": {
+                "semester_1": {
+                    "title": "Graphic Designing Foundation (0–3 Months)",
+                    "modules": [
+                        "Intro to Graphic Design",
+                        "Photoshop Basics",
+                        "Colour Theory",
+                        "Typography",
+                        "Design for Social Media",
+                        "Basic News Graphics"
+                    ]
+                },
+                "semester_2": {
+                    "title": "Advanced Graphics + Branding (3–6 Months)",
+                    "modules": [
+                        "Advanced Illustrator",
+                        "Brand Identity Design",
+                        "Print Media Designing",
+                        "Motion Graphics Basics",
+                        "Social Media Brand Strategy"
+                    ]
+                },
+                "semester_3": {
+                    "title": "Motion Graphics + Broadcast Design (6–12 Months)",
+                    "modules": [
+                        "Advanced After Effects",
+                        "2D Animation",
+                        "News Channel Graphics",
+                        "Corporate Motion Graphics",
+                        "Portfolio Development",
+                        "Internship"
+                    ]
+                }
+            },
+            "careers": [
+                "Graphic Designer",
+                "Motion Graphic Artist",
+                "Brand Designer",
+                "2D Animator",
+                "News Channel GFX Artist"
+            ],
+            "work_places": [
+                "News Channels",
+                "Advertising Agencies",
+                "Digital Media Companies",
+                "Corporate Houses",
+                "YouTube Creators"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Diploma in Digital Journalism & Social Media Broadcasting",
+            "image": "/c4.png",
+            "certification": [
+                "ISO Certified",
+                "MESC Skill India Recognised"
+            ],
+            "overview": "India’s most advanced digital-first journalism diploma focusing on mobile reporting, reels/shorts, digital news creation, fact-checking, SEO journalism, and social media broadcasting.",
+            "skills_you_get": [
+                "Mobile journalism",
+                "Reels news reporting",
+                "Digital anchoring",
+                "SEO writing",
+                "Fact-checking",
+                "Live reporting",
+                "YouTube news creation"
+            ],
+            "duration_options": [
+                {
+                    "program": "Advanced Diploma",
+                    "duration": "6 Months"
+                },
+                {
+                    "program": "Professional Diploma",
+                    "duration": "12 Months"
+                }
+            ],
+            "fees": {
+                "6_months": 30000,
+                "12_months": 55000,
+                "emi": true
+            },
+            "certificates": [
+                "MESC Skill India Certificate",
+                "ISO Certified IMI Diploma",
+                "Digital Journalism Portfolio"
+            ],
+            "eligibility": [
+                "10+2",
+                "Basic smartphone usage"
+            ],
+            "facilities": [
+                "Mobile reporting gear",
+                "DSLR (optional)",
+                "Digital editing systems",
+                "Green screen",
+                "CMS newsroom",
+                "Analytics tools"
+            ],
+            "syllabus": {
+                "semester_1": {
+                    "title": "Digital Journalism Foundation (0–6 Months)",
+                    "modules": [
+                        "Intro to Digital Journalism",
+                        "Mobile Journalism",
+                        "Social Media News Production",
+                        "SEO News Writing",
+                        "Digital Anchoring",
+                        "Fact Checking"
+                    ]
+                },
+                "semester_2": {
+                    "title": "Advanced Digital Broadcasting (6–12 Months)",
+                    "modules": [
+                        "Advanced Mobile Reporting",
+                        "YouTube Journalism",
+                        "Social Media Analytics",
+                        "Digital Investigative Reporting",
+                        "Brand Building for Journalists",
+                        "Portfolio + Internship"
+                    ]
+                }
+            },
+            "careers": [
+                "Digital Journalist",
+                "Mobile Reporter",
+                "Digital Anchor",
+                "Fact Checker",
+                "YouTube News Host",
+                "Web Content Producer"
+            ],
+            "work_places": [
+                "Digital News Platforms",
+                "YouTube Media Networks",
+                "Online News Portals",
+                "Corporate Communication Teams",
+                "Political Media Cells"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Diploma in Camera Handling, Lighting & Production",
+            "image": "/c5.png",
+            "certification": [
+                "ISO Certified",
+                "MESC Skill India Recognised"
+            ],
+            "overview": "A complete practical diploma covering DSLR, mirrorless & broadcast camera training, lighting, sound, ENG reporting, studio production, multi-camera setups, documentary filmmaking, and OTT-style production.",
+            "equipment_training": [
+                "DSLR & Mirrorless Cameras",
+                "Broadcast ENG Cameras",
+                "Softbox & RGB Lighting",
+                "Tripods, sliders",
+                "Lapel & Boom mics",
+                "Green Screen Studio",
+                "Live Production Gear"
+            ],
+            "duration_options": [
+                {
+                    "program": "Certificate",
+                    "duration": "3 Months"
+                },
+                {
+                    "program": "Advanced Diploma",
+                    "duration": "6 Months"
+                },
+                {
+                    "program": "Professional Diploma",
+                    "duration": "12 Months"
+                }
+            ],
+            "fees": {
+                "3_months": 22000,
+                "6_months": 40000,
+                "12_months": 75000,
+                "emi": true
+            },
+            "certificates": [
+                "MESC Skill India",
+                "ISO Certified IMI Diploma",
+                "Cinematography Portfolio"
+            ],
+            "eligibility": [
+                "10+2",
+                "Interest in filming"
+            ],
+            "facilities": [
+                "4K cameras",
+                "ENG broadcast cameras",
+                "Lighting kits",
+                "Audio booth",
+                "Green screen studio",
+                "Editing suites"
+            ],
+            "syllabus": {
+                "semester_1": {
+                    "title": "Camera Foundation (0–3 Months)",
+                    "modules": [
+                        "Camera Technology",
+                        "Manual Controls",
+                        "Shot Composition",
+                        "Lighting Basics",
+                        "Audio Basics",
+                        "Field Shooting Practice"
+                    ]
+                },
+                "semester_2": {
+                    "title": "Intermediate Studio Production (3–6 Months)",
+                    "modules": [
+                        "Broadcast Camera Operations",
+                        "Multi-Camera Studio Production",
+                        "Advanced Lighting",
+                        "Sound & Sync",
+                        "Production Planning",
+                        "News Production Practical"
+                    ]
+                },
+                "semester_3": {
+                    "title": "Cinematic Production (6–12 Months)",
+                    "modules": [
+                        "Cinematic Filmmaking",
+                        "OTT Style Production",
+                        "Documentary Filmmaking",
+                        "Drone Basics",
+                        "Final Cinematic Project",
+                        "Internship + Showreel"
+                    ]
+                }
+            },
+            "careers": [
+                "Camera Operator",
+                "Cinematographer",
+                "ENG Reporter",
+                "Lighting Technician",
+                "Documentary Filmmaker"
+            ],
+            "work_places": [
+                "TV Channels",
+                "OTT Studios",
+                "Documentary Teams",
+                "Event Production",
+                "YouTube Studios"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Diploma in Script Writing for News & Digital Media",
+            "image": "/c6.png",
+            "certification": [
+                "ISO Certified",
+                "MESC Skill India Recognised"
+            ],
+            "overview": "A professional diploma that teaches news writing, anchor scripting, crime & political writing, digital storytelling, documentary writing, reels/shorts script writing, and long-format content creation.",
+            "writing_skills": [
+                "News scripts",
+                "Bulletin writing",
+                "Digital writing",
+                "Social media scripts",
+                "Documentary scripts",
+                "YouTube long-format scripts"
+            ],
+            "duration_options": [
+                {
+                    "program": "Certificate",
+                    "duration": "3 Months"
+                },
+                {
+                    "program": "Advanced Diploma",
+                    "duration": "6 Months"
+                }
+            ],
+            "fees": {
+                "3_months": 14000,
+                "6_months": 26000,
+                "emi": true
+            },
+            "certificates": [
+                "MESC Certificate",
+                "ISO IMI Diploma",
+                "20+ Script Portfolio"
+            ],
+            "eligibility": [
+                "10+2",
+                "Basic English/Hindi",
+                "Interest in storytelling"
+            ],
+            "facilities": [
+                "Newsroom content library",
+                "Real footage",
+                "CMS writing",
+                "Studio",
+                "Digital research tools"
+            ],
+            "syllabus": {
+                "semester_1": {
+                    "title": "Writing Foundation (0–3 Months)",
+                    "modules": [
+                        "News Writing Basics",
+                        "TV News Writing",
+                        "Digital Writing",
+                        "Social Media Writing",
+                        "Creative Writing Techniques",
+                        "Voiceover Script Writing"
+                    ]
+                },
+                "semester_2": {
+                    "title": "Advanced Professional Writing (3–6 Months)",
+                    "modules": [
+                        "Investigative Writing",
+                        "Crime & Political Writing",
+                        "Documentary Writing",
+                        "YouTube Show Script Writing",
+                        "Podcast Script Writing",
+                        "Portfolio + Internship"
+                    ]
+                }
+            },
+            "careers": [
+                "News Script Writer",
+                "Digital Content Writer",
+                "Documentary Writer",
+                "YouTube Script Writer",
+                "Copywriter"
+            ],
+            "work_places": [
+                "News Channels",
+                "OTT Platforms",
+                "YouTube Studios",
+                "Advertising Agencies",
+                "Corporate Media Teams"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Diploma in Media Management & Newsroom Operations",
+            "image": "/c7.png",
+            "duration": "12 Months",
+            "fee": "₹65,000",
+            "mode": [
+                "Online",
+                "Offline"
+            ],
+            "certifications": [
+                "Skill India – MESC Certification",
+                "ISO Certified IMI Diploma Certificate",
+                "Newsroom Internship Certificate"
+            ],
+            "eligibility": "10+2 Pass",
+            "overview": "Professional diploma for newsroom managers, editorial leaders, programming heads and digital desk supervisors.",
+            "key_learning": [
+                "Newsroom workflow",
+                "Editorial planning",
+                "Team management",
+                "Programming schedules",
+                "TRP & analytics",
+                "Breaking news coordination",
+                "Media strategy"
+            ],
+            "facilities": [
+                "Newsroom simulation lab",
+                "PCR",
+                "News Studio",
+                "Digital Desk",
+                "Rundown Tools",
+                "TRP Dashboard"
+            ],
+            "semester_wise_syllabus": {
+                "Semester 1": [
+                    "Media Management",
+                    "Editorial Workflow",
+                    "Newsroom Operations",
+                    "Digital Desk",
+                    "Media Law",
+                    "Internal Communication"
+                ],
+                "Semester 2": [
+                    "Programming & Scheduling",
+                    "PCR Basics",
+                    "TRP Analytics",
+                    "Crisis Management",
+                    "Leadership Skills",
+                    "Internship & Portfolio"
+                ]
+            },
+            "career_opportunities": [
+                "Newsroom Manager",
+                "Assistant Producer",
+                "Editorial Coordinator",
+                "Digital Desk Manager",
+                "Assignment Desk Executive",
+                "Programming Executive"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Diploma in Mobile Journalism (MOJO)",
+            "image": "/c8.png",
+            "duration": "3 Months",
+            "fee": "₹12,000",
+            "mode": [
+                "Online",
+                "Offline"
+            ],
+            "certifications": [
+                "Skill India – MESC Certificate",
+                "ISO Certified IMI Certificate",
+                "MOJO Portfolio (15+ Videos)"
+            ],
+            "eligibility": "10+2 + Smartphone",
+            "overview": "Train to report, shoot, edit, publish and go live using only a smartphone.",
+            "key_learning": [
+                "Mobile Camera",
+                "Audio recording",
+                "Field reporting",
+                "Mobile video editing",
+                "Reels creation",
+                "Live reporting"
+            ],
+            "tools": [
+                "Smartphone Camera",
+                "Collar Mic",
+                "Gimbal",
+                "Kinemaster",
+                "VN",
+                "Canva"
+            ],
+            "modules": [
+                "Intro to MOJO",
+                "Camera Mastery",
+                "Shooting Techniques",
+                "Audio Recording",
+                "Mobile Editing",
+                "Field Reporting",
+                "Short Videos",
+                "Live Reporting",
+                "Fact Checking",
+                "Digital Publishing",
+                "Safety & Crisis",
+                "Final Projects"
+            ],
+            "career_opportunities": [
+                "Mobile Journalist",
+                "Digital Reporter",
+                "Social Media News Creator",
+                "Ground Correspondent",
+                "Freelance Reporter"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Diploma in Content Creation & Social Media Influencing",
+            "image": "/c9.png",
+            "duration": "6 Months",
+            "fee": "₹28,000",
+            "mode": [
+                "Online",
+                "Offline"
+            ],
+            "certifications": [
+                "Skill India – MESC Certification",
+                "ISO Certified IMI Diploma Certificate",
+                "Content Creator Portfolio",
+                "Influencer Strategy Workbook"
+            ],
+            "eligibility": "10+2 + Smartphone",
+            "overview": "Complete influencer & content creator training for Instagram, YouTube & other platforms.",
+            "key_learning": [
+                "Camera confidence",
+                "Mobile & DSLR shooting",
+                "Editing for reels",
+                "Personal branding",
+                "Viral content strategy",
+                "Social media growth",
+                "Monetization"
+            ],
+            "modules": [
+                "Intro to Content Creation",
+                "On-camera Personality",
+                "Shooting Techniques",
+                "Video Editing",
+                "Viral Strategy",
+                "Personal Branding",
+                "Growth Strategy",
+                "Brand Content Creation",
+                "Earning Methods",
+                "Online Reputation",
+                "Live Streaming",
+                "Final Portfolio"
+            ],
+            "career_opportunities": [
+                "Content Creator",
+                "Influencer",
+                "YouTube Creator",
+                "Brand Promoter",
+                "UGC Creator",
+                "Social Media Host"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Diploma in Public Relations (PR), Corporate Communication & Media Strategy",
+            "image": "/c10.png",
+            "duration": "6 Months",
+            "fee": "₹32,000",
+            "mode": [
+                "Online",
+                "Offline"
+            ],
+            "certifications": [
+                "Skill India – MESC Certification",
+                "ISO Certified IMI Diploma Certificate",
+                "PR & Corporate Communication Portfolio"
+            ],
+            "eligibility": "10+2",
+            "overview": "Professional PR and Corporate Communication training for media, politics & corporate sectors.",
+            "key_learning": [
+                "Press release writing",
+                "Spokesperson training",
+                "Media handling",
+                "Crisis communication",
+                "Political communication",
+                "Brand reputation",
+                "Corporate messaging"
+            ],
+            "modules": [
+                "Intro to PR",
+                "Corporate Communication",
+                "Press Release Writing",
+                "Media Relations",
+                "Spokesperson Training",
+                "Crisis Communication",
+                "Political PR",
+                "Social Media PR",
+                "Event PR",
+                "Digital PR Tools",
+                "Portfolio Creation",
+                "Internship"
+            ],
+            "career_opportunities": [
+                "PR Executive",
+                "Corporate Communication Officer",
+                "Media Strategist",
+                "Spokesperson",
+                "Political PR Manager",
+                "Brand Reputation Manager"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Diploma in Reporting & Field Journalism",
+            "image": "/c11.png",
+            "duration": [
+                "6 Months",
+                "12 Months"
+            ],
+            "fee": {
+                "6_months": "₹28,000",
+                "12_months": "₹52,000"
+            },
+            "mode": [
+                "Online",
+                "Offline"
+            ],
+            "certifications": [
+                "Skill India – MESC Reporter Training Certificate",
+                "ISO Certified IMI Diploma Certificate"
+            ],
+            "overview": "Field reporting-focused diploma for crime, political, district-level & ground reporting.",
+            "key_learning": [
+                "Crime reporting",
+                "Political reporting",
+                "District coverage",
+                "Mobile reporting",
+                "On-ground interviewing",
+                "Disaster reporting",
+                "Election coverage"
+            ],
+            "modules": [
+                "Intro to Reporting",
+                "Field Equipment Training",
+                "Mobile + Camera Reporting",
+                "Vox Pop & Interviews",
+                "Crime Reporting",
+                "Political Reporting",
+                "Election Coverage",
+                "Disaster Reporting",
+                "Script Writing",
+                "PTC Training",
+                "Field Assignments",
+                "Final Portfolio"
+            ],
+            "career_opportunities": [
+                "Reporter",
+                "Field Journalist",
+                "Crime Reporter",
+                "District Correspondent",
+                "Political Reporter",
+                "Video Journalist"
+            ]
+        }
+    ]
+}
