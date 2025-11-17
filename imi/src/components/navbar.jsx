@@ -180,6 +180,8 @@ export default function Navbar() {
             )}
           </div>
 
+          <a href="/courses" className="block hover:text-yellow-200">Courses</a>
+
           <a href="/faculty" className="block hover:text-yellow-200">Faculty</a>
           <a href="/faqs" className="block hover:text-yellow-200">FAQ'S</a>
 
