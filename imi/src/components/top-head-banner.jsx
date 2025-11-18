@@ -1,64 +1,70 @@
-"use client";
-import Slider from "react-slick";
-import Image from "next/image";
+'use client';
+import { useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-export default function TopBannerCarousel() {
-    const desktopBanners = [
-        "https://enewsbharat.com/wp-content/uploads/2025/10/ITMI-Banner-jpg-1.jpg"
-    ];
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-    const mobileBanners = [
-        "https://enewsbharat.com/wp-content/uploads/2025/10/ITMI-SMALL-size-post-jpg.jpg"
-    ];
+export default function ImageSlider() {
+  // Desktop images
+  const desktopImages = [
+    '/lap1.png',
+    '/lap2.jpeg',
+    '/lap3.jpeg',
+    '/lap4.png'
+ ]
+  
+  // Mobile images (add your mobile-size images here)
+  const mobileImages = [
+    '/mob1.jpeg',
+    '/mob2.png',
+    '/mob3.jpeg',
+    '/mob4.jpeg',
+  ];
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        arrows: false,
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect screen width
+  useEffect(() => {
+    const checkScreen = () => {
+      setIsMobile(window.innerWidth <= 768);
     };
 
-    return (
-        <div className="w- ">
-            {/* Desktop Carousel */}
-            <div className="hidden md:block">
-                <Slider {...settings}>
-                    {desktopBanners.map((banner, idx) => (
-                        <div key={idx}>
-                            <Image
-                                src={banner}
-                                alt={`Desktop Banner ${idx + 1}`}
-                                width={1920}
-                                height={400}
-                                className="w-full h-auto object-cover"
-                                priority={idx === 0}
-                            />
-                        </div>
-                    ))}
-                </Slider>
-            </div>
+    checkScreen();
+    window.addEventListener('resize', checkScreen);
 
-            {/* Mobile Carousel */}
-            <div className="block md:hidden">
-                <Slider {...settings}>
-                    {mobileBanners.map((banner, idx) => (
-                        <div key={idx}>
-                            <Image
-                                src={banner}
-                                alt={`Mobile Banner ${idx + 1}`}
-                                width={600}
-                                height={300}
-                                className="w-full h-auto object-cover"
-                                priority={idx === 0}
-                            />
-                        </div>
-                    ))}
-                </Slider>
-            </div>
-        </div>
-    );
+    return () => window.removeEventListener('resize', checkScreen);
+  }, []);
+
+  const finalImages = isMobile ? mobileImages : desktopImages;
+
+  return (
+    <div className="w-full flex justify-center items-center py-2">
+      <div className="w-full">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000 }}
+          loop={true}
+          spaceBetween={20}
+          className="shadow-lg"
+        >
+          {finalImages.map((src, index) => (
+            <SwiperSlide key={index}>
+              <img
+                src={src}
+                alt={`Slide ${index + 1}`}
+                className={`w-full ${
+                  isMobile ? 'h-[350px]' : 'h-[600px]'
+                } object-cover`}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
 }

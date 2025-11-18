@@ -7,6 +7,7 @@ import TestimonialSection from "@/components/testimonial";
 import TopRecruiters from "@/components/Recruiters";
 import GetYourCareerStarted from "@/components/carearsstarted";
 import Footer from "@/components/footer";
+import VideoTestimonials from "@/components/videotesti";
 export default function Home() {
   return ( 
     <>
@@ -14,6 +15,7 @@ export default function Home() {
     <WelcomeSection/>
     <TestimonialSection/>
     <TopRecruiters/>
+    <VideoTestimonials/>
     <GetYourCareerStarted/>
     </>
   );
