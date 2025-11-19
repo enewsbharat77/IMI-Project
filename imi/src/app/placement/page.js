@@ -24,16 +24,18 @@ export default function CareerPage() {
   };
 
   const recruiters = [
-    "/ajj tak.png",
-    "/zee-new.webp",
-    "/Lodester.webp",
-    "/News_nation_logo.webp",
-    "/Repindia.webp",
-    "/mobile-tak.jpg",
-    "/logo3.jpg",
-    "/logo.jpg",
-    "/logo4.jpg",
-    "/logo1.jpeg",
+    '/logo/logo1.png',
+    '/logo/logo2.png',
+    '/logo/logo3.png',
+    '/logo/logo4.png',
+    '/logo/logo5.webp',
+    '/logo/logo6.png',
+    '/logo/logo7.jpeg',
+    '/logo/logo8.jpeg',
+    '/logo/logo9.jpeg',
+    '/logo/logo10.jpeg',
+    '/logo/logo11.png',
+    '/logo/logo12.png'
   ];
 
   return (
@@ -88,8 +90,8 @@ export default function CareerPage() {
                 <Image
                   src={logo}
                   alt="Recruiter Logo"
-                  width={100}
-                  height={60}
+                  width={150}
+                  height={100}
                   className="object-contain h-12"
                 />
               </div>
