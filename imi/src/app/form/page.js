@@ -228,12 +228,17 @@ export default function ApplicationFormPage() {
                 className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-orange-500 outline-none"
               >
                 <option value="">Choose your course</option>
-                <option>Broadcast Journalism</option>
-                <option>Digital Media & Content Creation</option>
-                <option>Advertising & Public Relations</option>
-                <option>Photojournalism & Visual Storytelling</option>
-                <option>News Production & Anchoring</option>
-                <option>Media Management & Strategy</option>
+                <option>Diploma in News Anchoring & Reporting</option>
+                <option>Diploma in Video Editing & Post Production</option>
+                <option>Diploma in Graphic Designing & Motion Graphics</option>
+                <option>Diploma in Digital Journalism & Social Media Broadcasting</option>
+                <option>Diploma in Camera Handling, Lighting & Production</option>
+                <option>Diploma in Script Writing for News & Digital Media</option>
+                <option>Diploma in Media Management & Newsroom Operations</option>
+                <option>Diploma in Mobile Journalism (MOJO)</option>
+                <option>Diploma in Content Creation & Social Media Influencing</option>
+                <option>Diploma in Public Relations (PR), Corporate Communication & Media Strategy</option>
+                <option>Diploma in Reporting & Field Journalism</option>
               </select>
             </div>
 

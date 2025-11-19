@@ -65,8 +65,11 @@ export default function Footer() {
                     <h4 className="text-[#ea580c] text-lg font-semibold mb-4">
                         Contact Us
                     </h4>
+                    <p className='text-sm text-black mb-2'>
+                       🏢 91, C Block, Sector 10 Nodia - 201301 (Uttar Pradesh), India
+                    </p>
                     <p className="text-sm text-black mb-2">
-                        Innovative Media Institute, Jaipur, Rajasthan, India
+                       🏢 Innovative Media Institute, Jaipur, Rajasthan, India
                     </p>
                     <p className="text-sm text-black mb-1">
                         📞 +91 9024209393
