@@ -36,7 +36,7 @@ export default function Header() {
             {/* Logo 2 */}
             <Link href='https://innmedia.in/'>
               <Image
-                src="/inn.png"
+                src="/logo/logo2.png"
                 alt="Logo 2"
                 width={140}
                 height={80}
