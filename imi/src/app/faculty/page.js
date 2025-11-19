@@ -8,43 +8,64 @@ export default function FacultySection() {
       position: "Founder & Chairman – Innovative e-News Network (INN)",
       description:
         "Visionary Leader | Senior Journalist | Media Entrepreneur. With over 13 years of fearless journalism and digital innovation, Mukesh Dadhich stands as the driving force behind E-News Bharat and Innovative Media Institute (IMI).",
-      image: "/mukesh.jpg",
+      image: "/faculty/j2.jpg",
     },
     {
       name: "Mrs. Shruti Dadhich",
       position: "Dean & Director – Innovative Media Institute (IMI)",
       description:
         "Media Mentor | Communication Expert | HR & Marketing Head, E-News Bharat. A dynamic professional ensuring holistic growth of students through empathy and excellence.",
-      image: "/shruti.jpg",
-    },
-    {
-      name: "Mr. Tushar Prajapat",
-      position: "Video Editor & Digital Media Specialist",
-      description:
-        "The creative mind behind IMI’s visual storytelling. Helps students master lighting, editing, and impactful content creation.",
-      image: "/tushar.jpg",
-    },
-    {
-      name: "Ms. Nandini Nama",
-      position: "Anchor & Program Coordinator",
-      description:
-        "Guides students in anchoring, public speaking, and on-screen presence with confidence and clarity.",
-      image: "/nandini.jpg",
-    },
-    {
-      name: "Mr. Dipanshu Saini",
-      position: "Digital Engagement & Social Media Strategist",
-      description:
-        "Teaches digital audience engagement, content algorithms, and modern storytelling techniques.",
-      image: "/dipanshu.jpg",
+      image: "/faculty/j4.jpg",
     },
     {
       name: "Mr. Arpit Dadhich",
       position: "Program Coordinator & Studio Manager",
       description:
         "Ensures students get real-time exposure to live production, studio setups, and media workflow.",
-      image: "/harshit.jpg",
+      image: "/faculty/j3.jpeg",
     },
+    {
+      name: "Mr. Sunil Choduary",
+      position: "Video Editor ",
+      description:
+        "The creative mind behind IMI’s visual storytelling. Helps students master lighting, editing, and impactful content creation.",
+      image: "/faculty/fs2.png",
+    },
+    {
+      name: "Mr. Naman Jain",
+      position: "Software Developer",
+      description:
+        "Guides students in Developing website, help in making a Responsive and full fledge Website.",
+      image: "/faculty/fn1.png",
+    },
+    {
+      name: "Mr. Paras Singhal",
+      position: "BI analyst",
+      description:
+        "Teaches how to transform raw business data into actionable insights for strategic decision-making",
+      image: "/faculty/fp3.png",
+    },
+    {
+      name: "Ms. Nisha Sharma",
+      position: "Hr Head",
+      description:
+        "Teaches leads the human resources department and develops the overarching people strategy that aligns with the organization's business objectives",
+      image: "/faculty/fn5.jpeg",
+    },
+    {
+      name: "Mr. Harshit Vijayvargiya",
+      position: "News Editor",
+      description:
+        "Teaches journalism, editing, and media skills in both academic and professional settings",
+      image: "/faculty/fh4.png",
+    },
+    {
+      name: "Ms. Chandni Shakya",
+      position: "Graphic Designer",
+      description:
+        "Teaches leading classes or courses, sharing their professional knowledge and skills in areas like design principles, and portfolio development",
+      image: "/faculty/fc6.png",
+    }
   ];
 
   const team = [
@@ -102,27 +123,28 @@ export default function FacultySection() {
 
       {/* Core Leadership */}
       <h2 className="text-3xl font-semibold text-center text-orange-600 mb-8">
-         Core Leadership Team
+        Core Leadership Team
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 max-w-6xl mx-auto">
         {coreTeam.map((member, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300"
+            className="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 max-w-xs mx-auto w-full border-t-4 border-orange-500 hover:border-4 hover:border-orange-500 hover:scale-105"
           >
-            <div className="relative w-full h-64">
+            <div className="relative w-full h-64 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+              <div className="absolute inset-0 border-8 border-white pointer-events-none z-10"></div>
               <Image
                 src={member.image}
                 alt={member.name}
                 fill
-                className="object-cover"
+                className="object-contain p-3"
               />
             </div>
-            <div className="p-6 text-center">
-              <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-              <p className="text-sm text-orange-600 mb-2">{member.position}</p>
-              <p className="text-gray-600 text-sm">{member.description}</p>
+            <div className="p-5 text-center border-t-2 border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-1">{member.name}</h3>
+              <p className="text-xs text-orange-600 mb-3 font-medium">{member.position}</p>
+              <p className="text-gray-600 text-sm leading-relaxed">{member.description}</p>
             </div>
           </div>
         ))}
@@ -131,7 +153,7 @@ export default function FacultySection() {
       {/* Academic & Operations Table */}
       <div className="overflow-x-auto">
         <h2 className="text-3xl font-semibold text-center text-orange-600 mb-6">
-           Academic & Operations Team
+          Academic & Operations Team
         </h2>
         <table className="w-full text-left border-collapse shadow-lg bg-white rounded-xl overflow-hidden">
           <thead className="bg-orange-500 text-white">
@@ -159,10 +181,10 @@ export default function FacultySection() {
       {/* Closing Note */}
       <div className="text-center mt-16 max-w-3xl mx-auto">
         <h3 className="text-2xl font-semibold text-orange-600 mb-3">
-           Team IMI – A Culture of Creativity and Collaboration
+          Team IMI – A Culture of Creativity and Collaboration
         </h3>
         <p className="text-gray-700 leading-relaxed">
-          At IMI, every member contributes to a newsroom culture of learning, innovation, and storytelling.  
+          At IMI, every member contributes to a newsroom culture of learning, innovation, and storytelling.
           We don’t just produce graduates — we shape storytellers who redefine the nation’s media narrative.
         </p>
         <p className="mt-6 text-lg font-semibold text-gray-900 italic">

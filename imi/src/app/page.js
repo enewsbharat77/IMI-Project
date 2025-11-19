@@ -9,14 +9,14 @@ import GetYourCareerStarted from "@/components/carearsstarted";
 import Footer from "@/components/footer";
 import VideoTestimonials from "@/components/videotesti";
 export default function Home() {
-  return ( 
+  return (
     <>
-    <TopBanner/>
-    <WelcomeSection/>
-    <TestimonialSection/>
-    <TopRecruiters/>
-    <VideoTestimonials/>
-    <GetYourCareerStarted/>
+      <TopBanner />
+      <WelcomeSection />
+      <TestimonialSection />
+      <TopRecruiters />
+      {/* <VideoTestimonials/> */}
+      <GetYourCareerStarted />
     </>
   );
 }

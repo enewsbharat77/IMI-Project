@@ -29,7 +29,7 @@ export default function Header() {
 
             {/* Divider */}
             <div className="hidden md:flex flex-col items-center">
-              <div className="w-px h-14 bg-gradient-to-b from-orange-400 via-orange-600 to-orange-400"></div>
+              <div className="w-px h-[70px] bg-gradient-to-b from-orange-400 via-orange-600 to-orange-400"></div>
               <div className="w-1.5 h-1.5 bg-orange-600 rounded-full"></div>
             </div>
 
