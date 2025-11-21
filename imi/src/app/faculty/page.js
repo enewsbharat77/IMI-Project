@@ -21,7 +21,7 @@ export default function FacultySection() {
       name: "Mr. Arpit Dadhich",
       position: "Program Coordinator & Studio Manager",
       description: "Ensures students get real-time exposure to live production, studio setups, and media workflow.",
-      image: "/faculty/j5.png",
+      image: "/faculty/j6.jpeg",
     },
     {
       name: "Mr. Sunil Choduary",
@@ -66,12 +66,12 @@ export default function FacultySection() {
 
   const team = [
     {
-      name: "Ambika Sharma",
+      name: "Hetshree Sharma",
       position: "Faculty – Media Writing",
       expertise: "Content Strategy, Creative Writing",
     },
     {
-      name: "Sonia Sharma",
+      name: "Navya Bohra",
       position: "Faculty – Political Journalism",
       expertise: "Reporting & Research",
     },
