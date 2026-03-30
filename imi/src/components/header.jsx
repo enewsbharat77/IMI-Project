@@ -19,7 +19,7 @@ export default function Header() {
             {/* Logo 1 */}
             <Link href="/">
               <Image
-                src="https://enewsbharat.com/wp-content/uploads/2025/08/imi.png"
+                src="logo/logo13.png"
                 alt="IMI Left Logo"
                 width={150}
                 height={120}
