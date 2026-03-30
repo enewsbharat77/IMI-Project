@@ -10,8 +10,8 @@ export default function Footer() {
                 <div>
                     <div className="flex items-center space-x-3 mb-4">
                         <Image
-                            src="https://enewsbharat.com/wp-content/uploads/2025/08/imi.png"
-                            alt="ITMI Logo"
+                            src="logo/logo13.png"
+                            alt="IMI Logo"
                             width={100}
                             height={100}
                             className="object-contain"
