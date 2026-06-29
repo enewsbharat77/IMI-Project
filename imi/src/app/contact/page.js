@@ -133,7 +133,7 @@ export default function ContactPage() {
               <p>
                 🏢 <strong> Corporate Office</strong>
                 <br />
-                91, C Block Sector 10, Nodia - 201301, Uttar Pradesh, India
+                91, C Block Sector 10, Noida - 201301, Uttar Pradesh, India
                 <br />
                 <em>
                   Nearest Metor Station: Sector 15 Metro Station (Nodia Metro)
@@ -141,7 +141,7 @@ export default function ContactPage() {
               </p>
 
               <p>
-                🏢 <strong>Institute Address:</strong>
+                🏢 <strong>Head Office:</strong>
                 <br />
                 Innovative Media Institute (IMI)
                 <br />
