@@ -66,7 +66,7 @@ export default function Footer() {
                         Contact Us
                     </h4>
                     <p className='text-sm text-black mb-2'>
-                       🏢 91, C Block, Sector 10 Nodia - 201301 (Uttar Pradesh), India
+                       🏢 91, C Block, Sector 10 Noida - 201301 (Uttar Pradesh), India
                     </p>
                     <p className="text-sm text-black mb-2">
                        🏢 Innovative Media Institute, Jaipur, Rajasthan, India
